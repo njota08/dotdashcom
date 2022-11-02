@@ -101,7 +101,6 @@ public abstract class BasePage {
                 + "simulateHTML5DragAndDrop(source,destination);", fromElement, toElement);
     }
 
-
     public void switchToFrame(By element) throws Exception {
             driver.switchTo().frame(driver.findElement(element));
     }
@@ -143,5 +142,11 @@ public abstract class BasePage {
             }
         }
         return false;
+    }
+
+    public void hoverMouse(By element){
+        WebElement ele = driver.findElement(element);
+        Actions action = new Actions(driver);
+        action.moveToElement(ele).build().perform();
     }
 }

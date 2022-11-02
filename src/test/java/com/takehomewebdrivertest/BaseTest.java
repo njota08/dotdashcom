@@ -19,5 +19,6 @@ public class BaseTest {
     protected JavaScriptAlertsPage javaScriptAlertsPage = new JavaScriptAlertsPage(driver);
     protected WindowsPage windowsPage = new WindowsPage(driver);
     protected NotificationMessagePage notificationMessagePage = new NotificationMessagePage(driver);
+    protected HoverMousePage hoverMousePage = new HoverMousePage(driver);
 
 }

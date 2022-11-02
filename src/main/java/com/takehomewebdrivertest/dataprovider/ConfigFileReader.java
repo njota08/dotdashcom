@@ -47,9 +47,4 @@ public class ConfigFileReader {
         else throw new RuntimeException("Download Path not specified in the Configuration.properties file.");
     }
 
-    public String getFilesPath() {
-        String downPath = properties.getProperty("filesPath");
-        if (downPath != null) return downPath;
-        else throw new RuntimeException("Files Path not specified in the Configuration.properties file.");
-    }
 }

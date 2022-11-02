@@ -11,7 +11,6 @@ public class Checkboxes extends BaseTest {
         checkboxesPage.navigateToCheckboxesPage();
     }
 
-
     @When("I click on the checkbox 1")
     public void iClickOnTheCheckbox1() throws Exception {
         checkboxesPage.clickOnCheckbox1();
