@@ -1,0 +1,16 @@
+com\takehomewebdrivertest\BasePage.class
+com\takehomewebdrivertest\DynamicControlsPage.class
+com\takehomewebdrivertest\WindowsPage.class
+com\takehomewebdrivertest\CheckboxesPage.class
+com\takehomewebdrivertest\DragAndDropPage.class
+com\takehomewebdrivertest\IFramePage.class
+com\takehomewebdrivertest\NotificationMessagePage.class
+com\takehomewebdrivertest\LoginPage.class
+com\takehomewebdrivertest\DownloadPage.class
+com\takehomewebdrivertest\DynamicLoadingPage.class
+com\takehomewebdrivertest\dataprovider\ConfigFileReader.class
+com\takehomewebdrivertest\FloatingMenuPage.class
+com\takehomewebdrivertest\JavaScriptAlertsPage.class
+com\takehomewebdrivertest\ContextMenuPage.class
+com\takehomewebdrivertest\SecurePage.class
+com\takehomewebdrivertest\DropdownPage.class
